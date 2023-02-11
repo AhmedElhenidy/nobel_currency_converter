@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nobel_currency_converter/presentation/currency_converter_screen.dart';
+import 'package:nobel_currency_converter/presentation/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const CurrencyConverterScreen(),
+      home:  SignInPage(),
     );
   }
 }
